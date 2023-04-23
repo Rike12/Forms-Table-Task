@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./CSS/index.css">
+    <title>FORMS</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Your address</legend>
+  
+       <div class="address">
+          <label for="First Name"><b>First Name:</b></label>
+        <input type="text" id="First Name"> <br>
+  
+         <label for="Last Name"><b>Last Name:</b></label> 
+        <input type="text" id="Last Name"><br>
+
+        <label for="Street "><b>Street:</b></label>
+        <input type="text"> <br>
+      
+        <label for="City"> <b>City:</b></label>
+        <input type="text" style="margin-bottom: 20px;"> <br>
+        </div>  
+    </fieldset>
+
+<fieldset>
+        <legend>Additional details</legend>
+        <br>
+       <div class="details">
+          <label for="biography"><b>Biograph:</b></label>
+          <textarea rows="2" cols="20"> </textarea><br>
+  
+          <label for="images"> <b>Image:</b> </label>
+            <button>Choose file</button> No file chosen <br>
+        
+            <label for="Age Group"> <b>Age Group:</b> </label>
+            <input type="number"
+              id="number"
+              min="0"
+              max="9"
+              placeholder="0 to 9 years"
+              required >
+ 
+        </div>  
+    </fieldset>
+    <fieldset>
+      <legend>Interests</legend>
+      <br>
+     <div class="interest">
+        <label for="hobbies"><b>Hobbies:</b></label>
+        <select name="Hobbies" id="Hobbies" size="4">   
+                <option value="dancing">Dancing</option>
+                <option value="reading">Reading</option>
+                <option value="watching movie">Watching movie</option>
+                <option value="cooking">Cooking</option>
+        </select>
+
+        <div class="car">
+          <label for="favourite car"><b>Favourite car?</b></label>
+          <select name="cars" id="cars" style="margin-top: 30px;">
+          <option value="volvo">Volvo</option>
+          </select>
+
+          <div class="public">
+            <label for="favourite public transport"><b>Favourite public transport?</b></label>
+        <select name="favourite" id="favourite" size ="4"
+        style="margin-top:20px; margin-bottom: 20px;">
+        <optgroup label="Ground">
+            <option value="train"><b>Train</b></option>
+            <option value="Bus">Bus</option>
+        </optgroup>
+        <optgroup label="Water"></optgroup>
+    </select>
+
+
+      </div>
+
+
+      </div>  
+  </fieldset>
+</body>
+</html>

@@ -1,0 +1,22 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+fieldset{
+    margin: 19px;
+    width: 90%;
+    border: 1px solid black;
+}
+legend{
+    font-weight: bold;
+}
+input[type=text], select, textarea {
+   padding: 3px;
+}
+label{
+    width: 30%;
+    display: inline-block;
+    margin: 8px;     
+   
+}
